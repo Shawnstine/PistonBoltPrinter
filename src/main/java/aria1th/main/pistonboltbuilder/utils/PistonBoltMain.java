@@ -32,7 +32,7 @@ public class PistonBoltMain {
         private int order;
         private BlockPos blockPos;
         private boolean isStraight = true;
-        private Item powerableBlockItem = Items.SMOOTH_QUARTZ; //can change, how?
+        private Item powerableBlockItem = Items.GRAY_CONCRETE; //can change, how?
         private Item pushableItem = Items.SEA_LANTERN; //can change or set it to null, how?
         private LinkedList<Action> currentIterable = new LinkedList<Action>();
         private final LinkedHashMap <Integer, Item> itemMap;
